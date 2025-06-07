@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+.env
+
+# Uploads folder - we don't want to track user-uploaded images
+uploads/
+
+# IDE and OS-specific files
+.idea/
+.vscode/
+*.DS_Store
