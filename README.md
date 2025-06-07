@@ -1,4 +1,4 @@
-Brain Tumor MRI Detection
+# Brain Tumor MRI Detection
 This project is a web application that uses a deep learning model to classify brain tumors from MRI images. Users can upload an MRI scan, and the application will predict whether the image shows a glioma, meningioma, pituitary tumor, or no tumor.
 
 
@@ -15,7 +15,7 @@ Result Display: Shows the uploaded image, the predicted class, and the model's c
 
 Web Interface: Built with Flask for easy interaction.
 
-Project Structure
+**Project Structure**
 Brain_Tumor_MRI_Detection/
 ├── .gitattributes             # Defines how Git handles large files
 ├── models/
@@ -29,17 +29,17 @@ Brain_Tumor_MRI_Detection/
 ├── requirements.txt           # Python dependencies
 └── README.md                  # You are here!
 
-Technology Stack
+**Technology Stack**
 Backend: Python, Flask
 
 Machine Learning: TensorFlow, Keras
 
 Frontend: HTML, Bootstrap CSS
 
-Setup and Installation
+# Setup and Installation
 Follow these steps to get the project running on your local machine.
 
-1. Prerequisites
+**1. Prerequisites**
 
 Git LFS: The trained model (model.keras) is too large for a standard GitHub repository and is managed using Git Large File Storage (LFS). You must install it first.
 
@@ -47,7 +47,7 @@ Download and install Git LFS.
 
 After installing, run git lfs install once to set it up for your system.
 
-2. Clone the Repository
+**2. Clone the Repository**
 This command will now automatically detect the LFS files and download the model.
 
 git clone https://github.com/Charan282/Brain-Tumor-MRI-Detection.git
@@ -55,7 +55,7 @@ cd Brain-Tumor-MRI-Detection
 
 Note: If the model.keras file is only a few KBs in size after cloning, it means Git LFS did not download it correctly. In that case, run git lfs pull inside the repository folder.
 
-3. Create a Virtual Environment
+**3. Create a Virtual Environment**
 It's recommended to use a virtual environment to keep dependencies isolated.
 
 # For Windows
@@ -66,7 +66,7 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 
-4. Install Dependencies
+**4. Install Dependencies**
 The required packages are listed in requirements.txt.
 
 pip install -r requirements.txt
