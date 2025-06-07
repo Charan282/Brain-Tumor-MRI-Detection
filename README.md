@@ -4,7 +4,7 @@ This project is a web application that uses a deep learning model to classify br
 
 Note: You can upload your screenshot to a site like Imgur and replace the URL above to have it display here.
 
-Features
+**Features**
 Image Upload: Simple drag-and-drop or file selection interface.
 
 Deep Learning Model: Utilizes a Convolutional Neural Network (CNN), specifically a pre-trained VGG16 model, fine-tuned for tumor classification.
@@ -30,11 +30,11 @@ Brain_Tumor_MRI_Detection/
 └── README.md                  # You are here!
 
 **Technology Stack**
-Backend: Python, Flask
+**Backend:** Python, Flask
 
-Machine Learning: TensorFlow, Keras
+**Machine Learning:** TensorFlow, Keras
 
-Frontend: HTML, Bootstrap CSS
+**Frontend:** HTML, Bootstrap CSS
 
 # Setup and Installation
 Follow these steps to get the project running on your local machine.
