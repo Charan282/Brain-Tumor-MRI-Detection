@@ -17,6 +17,7 @@ Result Display: Shows the uploaded image, the predicted class, and the model's c
 Web Interface: Built with Flask for easy interaction.
 
 **Project Structure**
+```
 Brain_Tumor_MRI_Detection/
 ├── .gitattributes             # Defines how Git handles large files
 ├── models/
@@ -29,7 +30,7 @@ Brain_Tumor_MRI_Detection/
 ├── main.py                    # The Flask application server
 ├── requirements.txt           # Python dependencies
 └── README.md                  # You are here!
-
+```
 **Technology Stack**
 **Backend:** Python, Flask
 
@@ -37,7 +38,7 @@ Brain_Tumor_MRI_Detection/
 
 **Frontend:** HTML, Bootstrap CSS
 
-# Setup and Installation
+Setup and Installation
 Follow these steps to get the project running on your local machine.
 
 **1. Prerequisites**
@@ -59,11 +60,11 @@ Note: If the model.keras file is only a few KBs in size after cloning, it means 
 **3. Create a Virtual Environment**
 It's recommended to use a virtual environment to keep dependencies isolated.
 
-# For Windows
+**For Windows**
 python -m venv venv
 venv\Scripts\activate
 
-# For macOS/Linux
+**For macOS/Linux**
 python3 -m venv venv
 source venv/bin/activate
 
